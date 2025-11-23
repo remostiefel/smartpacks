@@ -1,0 +1,45 @@
+Starting in 5 seconds... Press Ctrl+C to cancel
+
+1️⃣  Seeding Creative Tasks Library...
+----------------------------------------------------------------------
+⚠️  Creative task seeding skipped in production environment
+
+2️⃣  Seeding Test Class (15 students with comprehensive data)...
+----------------------------------------------------------------------
+🌱 Seeding Test class with comprehensive Swiss student data...
+✅ Cleared existing Test class data (ID: c7480ffe-2dd4-4fd0-b693-dbd022d70c58)
+  ✓ Created student: Leon Tanner (male)
+  ✓ Created student: Noah Furrer (female)
+  ✓ Created student: Jan Schmid (male)
+  ✓ Created student: Nico Tanner (female)
+  ✓ Created student: Nico Frei (male)
+  ✓ Created student: Chiara Furrer (female)
+  ✓ Created student: Tim Steiner (male)
+  ✓ Created student: Pascal Baumann (female)
+  ✓ Created student: Nico Egger (male)
+  ✓ Created student: Chiara Müller (female)
+  ✓ Created student: Noah Fischer (male)
+  ✓ Created student: Nina Baumgartner (female)
+  ✓ Created student: Marco Egger (male)
+  ✓ Created student: Nora Küng (female)
+  ✓ Created student: Lea Schneider (male)
+  📝 Generating data for Leon...
+❌ Error seeding test class: TypeError: storage.createBulkResponses is not a function
+    at seedTestClass (/home/runner/workspace/server/seed-test-class.ts:271:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async seedProduction (/home/runner/workspace/server/seed-production.ts:34:24)
+
+======================================================================
+❌ SEEDING FAILED!
+
+Error: TypeError: storage.createBulkResponses is not a function
+    at seedTestClass (/home/runner/workspace/server/seed-test-class.ts:271:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async seedProduction (/home/runner/workspace/server/seed-production.ts:34:24)
+
+💡 Troubleshooting:
+   1. Check DATABASE_URL is set correctly
+   2. Ensure database migrations are up to date (npm run db:push)
+   3. Check that required tables exist
+
+❌ Production seeding script failed

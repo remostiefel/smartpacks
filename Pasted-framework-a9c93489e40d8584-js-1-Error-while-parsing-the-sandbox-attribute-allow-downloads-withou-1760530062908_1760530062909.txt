@@ -1,0 +1,63 @@
+framework-a9c93489e40d8584.js:1 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+_ @ framework-a9c93489e40d8584.js:1Fehler nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'battery'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'pointer-lock'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+e @ framework-a9c93489e40d8584.js:1Fehler nachvollziehen
+framework-a9c93489e40d8584.js:1 The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+e @ framework-a9c93489e40d8584.js:1Fehler nachvollziehen
+framework-a9c93489e40d8584.js:1 The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+e @ framework-a9c93489e40d8584.js:1Fehler nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Fehler nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'ambient-light-sensor'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'battery'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'execution-while-not-rendered'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'layout-animations'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'legacy-image-formats'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'navigation-override'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'oversized-images'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'publickey-credentials'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'speaker-selection'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'unoptimized-images'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Unrecognized feature: 'unsized-media'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Allow attribute will take precedence over 'allowfullscreen'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2F&id=%3Arq0%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.Diese Warnung nachvollziehen
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0
+injected.js:27 🔄 State changed - sessionId: null variants: 0
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0
+injected.js:27 🚀 Starting training with: Object
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0
+injected.js:27 📥 API Response raw text: {"session":{"id":"8c3d73f7-08b4-46a4-8df7-18960631b40c","teacherId":"589145d1-7e7f-43bc-a3b4-6196bf0ed595","errorContext":{"errorType":"zehnuebergang_addition","targetNumbers":[8,12]},"status":"active
+injected.js:27 📦 API Response parsed: Object
+injected.js:27 🎨 Rendering - sessionId: null variants count: 0

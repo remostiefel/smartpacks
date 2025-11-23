@@ -1,0 +1,161 @@
+hier ist eine fertige, professionell formulierte Replit-Agent-Anweisung, die du direkt in dein Replit-Chatfeld einfügen kannst.
+Sie ist so aufgebaut, dass der Agent sofort weiß, was zu tun ist, in welcher Reihenfolge und wie er den Fix verifizieren soll.
+Alle relevanten Hypothesen aus deiner Analyse sind integriert.
+
+🧠 Replit-Agent Prompt: Radix UI Select Runtime Error Fix
+
+Kontext:
+Im Projekt tritt beim Öffnen der Dropdown-Menüs („Kategorie-Filter“ und „Aufgaben-Auswahl“) im Tab "Kreativ" ein Runtime Error auf:
+[plugin:runtime-error-plugin] (unknown runtime error)
+
+Ziel: Ursache finden und stabilen Fix implementieren.
+
+🔍 1. Reproduzieren & Diagnose
+
+Öffne client/src/pages/student-detail.tsx
+
+Reproduziere den Fehler (Dropdown im Tab „Kreativ“ öffnen).
+
+Prüfe Browser-Konsole: Bestätige, dass der Error beim Öffnen, nicht beim Auswählen, ausgelöst wird.
+
+Füge temporär einen Log im Select-Render hinzu, um Datenfluss zu prüfen:
+
+console.log("Render SelectContent", {
+  selectedCategory,
+  selectedTaskId,
+  availableCreativeTasksLength: availableCreativeTasks?.length
+});
+
+
+→ So sehen wir, ob undefined oder leere Arrays reinlaufen.
+
+⚙️ 2. Vereinheitliche kontrolliertes State-Handling
+
+Ziel: Kein Mix aus defaultValue und value, um Radix-Internal Crash zu vermeiden.
+
+a) Kategorie-Filter (client/src/pages/student-detail.tsx, ca. Zeile 680)
+<Select
+  value={selectedCategory}
+  onValueChange={(value) => {
+    setSelectedCategory(value);
+    setSelectedTaskId(undefined);
+  }}
+>
+
+
+➡️ Entferne defaultValue="all".
+
+b) Aufgaben-Auswahl
+<Select
+  value={selectedTaskId ?? ""}
+  onValueChange={(value) => setSelectedTaskId(value || undefined)}
+>
+
+
+➡️ Stelle sicher, dass der value nie undefined ist, sondern "".
+
+🧩 3. Sicheres Fallback-Item statt leerem Content
+
+Ersetze die bisherige dynamische SelectContent-Struktur mit dieser:
+
+const filteredTasks = availableCreativeTasks.filter(
+  (task) => selectedCategory === "all" || task.category === selectedCategory
+);
+
+<SelectContent>
+  {filteredTasks.length === 0 ? (
+    <SelectItem disabled value="none">
+      Keine Aufgaben in dieser Kategorie
+    </SelectItem>
+  ) : (
+    filteredTasks.map((task) => (
+      <SelectItem key={task.id} value={task.id}>
+        {task.title}
+      </SelectItem>
+    ))
+  )}
+</SelectContent>
+
+
+➡️ Kein leerer <SelectContent>, kein doppeltes .filter(), keine Portal-Crashs.
+
+🪄 4. Portal-Ziel fixieren (bekannter Radix-Bug)
+
+Öffne:
+client/src/components/ui/select.tsx
+
+Suche den Part, wo das SelectContent-Element gerendert wird.
+Wenn dort kein explizites Portal angegeben ist, ersetze mit:
+
+<Select.Portal container={document.body}>
+  <Select.Content position="popper">{children}</Select.Content>
+</Select.Portal>
+
+
+➡️ Verhindert Portal-Mount-Konflikte, wenn Tabs oder modale Views geöffnet/geschlossen werden.
+
+🧱 5. Defensive Guards gegen ungültige Values
+
+Prüfe alle onValueChange-Handler im File:
+
+onValueChange={(value) => {
+  if (!value || value === "none") return;
+  setSelectedTaskId(value);
+}}
+
+
+➡️ Damit keine leeren Strings oder undefined in Radix gelangen.
+
+🧩 6. Timing Guard für Query-Daten
+
+In der Renderfunktion:
+
+if (!availableCreativeTasks) {
+  return <div>Lade kreative Aufgaben...</div>;
+}
+
+
+oder:
+
+<Select disabled={availableCreativeTasks.length === 0}>
+
+
+➡️ Radix initialisiert nicht mit undefined-Items.
+
+🔄 7. Test & Validierung
+
+App neu starten.
+
+Im Kreativ-Tab Dropdown öffnen.
+
+Kein Runtime Error beim Öffnen ✅
+
+Kategorie-Filter funktioniert korrekt ✅
+
+Keine Warnung wegen value/defaultValue im Log ✅
+
+Teste Zustandwechsel (setSelectedCategory, setSelectedTaskId) über React DevTools.
+
+📦 8. Version Check & Finales Upgrade (wenn Problem bleibt)
+
+Führe im Terminal aus:
+
+npm ls @radix-ui/react-select
+
+
+Wenn Version < 2.0.0, dann:
+
+npm install @radix-ui/react-select@^2.0.0
+
+
+➡️ Version 2.x behebt mehrere Portal-Rendering-Fehler.
+
+✅ Erfolgskriterien
+
+Kein [plugin:runtime-error-plugin] mehr beim Öffnen eines Select.
+
+Dropdown öffnet und zeigt Inhalte korrekt.
+
+Kein Value- oder Portal-bezogener Warning mehr in der Console.
+
+Controlled-State-Flow stabil zwischen Kategorie-Filter und Aufgaben-Auswahl.

@@ -1,0 +1,85 @@
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Fehler nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'battery'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Unrecognized feature: 'pointer-lock'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+framework-a9c93489e40d8584.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-a9c93489e40d8584.js:1Diese Warnung nachvollziehen
+41The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.Fehler nachvollziehen
+41The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?Fehler nachvollziehen
+41The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.Fehler nachvollziehen
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: the server responded with a status of 502 ()Fehler nachvollziehen
+cf.js?config=%257B%2522projectId%2522%253A%252268c9ad4d4cddb58cf3a1f93d%2522%252C%2522startTime%2522%253A1760529384839%252C%2522timeoutMs%2522%253A1000%252C%2522currentUrl%2522%253A%2522https%253A%252F%252Freplit.com%252F%7E%2522%252C%2522trackingOnly%2522%253Atrue%257D:10 Uncaught (in promise) Error: Timeout waiting for command after 3600000ms for:
+e=>!("treatmentApplied"!==e.subscribe||!e.callback)Fehler nachvollziehen
+stallwart.build.js:1 stallwart: failed ping 1
+stallwart.build.js:1 stallwart: failed ping 2
+stallwart.build.js:1 stallwart: failed ping 3
+stallwart.build.js:1 stallwart: failed ping 1
+stallwart.build.js:1 stallwart: failed ping 2
+2stallwart.build.js:1 stallwart: failed ping 1
+_app-c9ca3a552390b735.js:28 [Coframe] Mutation callback infinite loop protection triggered, disconnecting mutation observer Object
+(anonym) @ _app-c9ca3a552390b735.js:28Fehler nachvollziehen
+[Report Only] Refused to frame 'https://www.google.com/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".
+Fehler nachvollziehen
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: the server responded with a status of 502 ()Fehler nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'ambient-light-sensor'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'battery'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'execution-while-not-rendered'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'layout-animations'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'legacy-image-formats'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'navigation-override'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'oversized-images'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'publickey-credentials'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'speaker-selection'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'unoptimized-images'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Unrecognized feature: 'unsized-media'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Allow attribute will take precedence over 'allowfullscreen'.Diese Warnung nachvollziehen
+workspace_iframe.html?initialPath=%2Fpaeckchen-demonstrator&id=%3Ar36g%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.Diese Warnung nachvollziehen
+a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/api/assessments/3770b37e-109b-4cc8-b50c-5ff5c1ddba0c/results:1  Failed to load resource: the server responded with a status of 500 (Internal Server Error)Fehler nachvollziehen
+injected.js:27 🚀 Starting homework generation...
+injected.js:27 Selected error types: Array(1)
+injected.js:27 All errors: 7
+injected.js:27 Filtered errors: 7
+injected.js:27 📤 Request data: Object
+injected.js:27 ❌ Error generating homework: TypeError: Failed to execute 'fetch' on 'Window': '/api/homework/generate' is not a valid HTTP method.
+    at Object.apply (injected.js:204:39)
+    at apiRequest (queryClient.ts:34:26)
+    at Object.mutationFn (homework-generator.tsx:103:30)
+    at Object.fn (@tanstack_react-query.js?v=8cdfc5f1:2000:29)
+    at run (@tanstack_react-query.js?v=8cdfc5f1:797:49)
+    at Object.start (@tanstack_react-query.js?v=8cdfc5f1:840:9)
+    at _a7.execute (@tanstack_react-query.js?v=8cdfc5f1:2041:56)
+(anonym) @ injected.js:27Fehler nachvollziehen
+injected.js:27 ❌ Error details: Failed to execute 'fetch' on 'Window': '/api/homework/generate' is not a valid HTTP method. TypeError: '/api/homework/generate' is not a valid HTTP method.
+    at Object.apply (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/__replco/static/devtools/injected.js:204:39)
+    at apiRequest (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/src/lib/queryClient.ts:25:26)
+    at Object.mutationFn (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/src/pages/homework-generator.tsx:119:30)
+    at Object.fn (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=8cdfc5f1:2000:29)
+    at run (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=8cdfc5f1:797:49)
+    at Object.start (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=8cdfc5f1:840:9)
+    at _a7.execute (https://a248a16e-1bb3-4334-b694-70b25e60cd1e-00-3qw4bg4y9dty5.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=8cdfc5f1:2041:56)
